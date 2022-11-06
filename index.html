@@ -1,212 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-    rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-    crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/cb9c36020e.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/index.css">
-    <title>Animal Nation</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/cb9c36020e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/index.css">
+  <title>Animal Nation</title>
 </head>
+
 <body>
-    <header class="header">
+  <header class="header">
     <nav class="navbar navbar-expand-lg bg-* borders">
-        <div class="container-fluid">
-          <a class="navbar-brand logo-dim borders" href="#"><img src="images/landing/logo.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active me-5" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle me-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Categories
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Zoo</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Garden</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Events</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link me-5" href="#">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact US</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+      <div class="container-fluid">
+        <a class="navbar-brand logo-dim borders" href="#"><img src="images/landing/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active me-5" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle me-5" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Categories
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Zoo</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="../Zoo/pages/garden/index.html">Garden</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Events</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-5" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact US</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
         </div>
+      </div>
     </nav>
 
     <div id="carouselExampleCaptions" class="carousel slide carousel-dim" data-bs-ride="false">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item carousel-dim active">
-            <img src="images/landing/landing_img1.jpg" class="d-block w-100 carousel-dim" alt="Tiger in water">
-            <div class="carousel-caption d-none d-md-block">
-              <h5 class="heading">ANIMALS</h5>
-              <p class="paragraph">Get close to Giraffe, Hippo and Lion</p>
-              <p class="scroll">Scroll Down</p>
-              <a class="down-arrow" href="#navbar"><i class="fa-solid fa-angle-down"></i></a>
-            </div>
-          </div>
-          <div class="carousel-item carousel-dim">
-            <img src="images/landing/landing_img2.jpg" class="d-block w-100 carousel-dim" alt="Turtle in the sea">
-            <div class="carousel-caption d-none d-md-block">
-              <h5 class="heading">OCEANARIUM</h5>
-              <p class="paragraph">Underwater wild life</p>
-              <p class="scroll">Scroll Down</p>
-              <a class="down-arrow" href="#navbar"><i class="fa-solid fa-angle-down"></i></a>
-            </div>
-          </div>
-          <div class="carousel-item carousel-dim">
-            <img src="images/landing/landing_img3.jpg" class="d-block w-100 carousel-dim" alt="Butterfly on flower">
-            <div class="carousel-caption d-none d-md-block">
-              <h5 class="heading" >INSECT</h5>
-              <p class="paragraph">Insects are the most diverse group of animals</p>
-              <p class="scroll">Scroll Down</p>
-              <a class="down-arrow" href="#navbar"><i class="fa-solid fa-angle-down"></i></a>
-            </div>
-          </div>
-          <div class="carousel-item carousel-dim">
-            <img src="images/landing/landing_img5.jpg" class="d-block w-100 carousel-dim" alt="Orange rose">
-            <div class="carousel-caption d-none d-md-block">
-              <h5 class="heading">GARDEN</h5>
-              <p class="paragraph">Peaceful park with shade trees and benches</p>
-              <p class="scroll">Scroll Down</p>
-              <a class="down-arrow" href="#navbar"><i class="fa-solid fa-angle-down"></i></a>
-            </div>
-          </div>
-          <div class="carousel-item carousel-dim">
-            <img src="images/landing/landing_img4.jpg" class="d-block w-100 carousel-dim" alt="Halloween pumpkins">
-            <div class="carousel-caption d-none d-md-block">
-              <h5 class="heading">EVENTS</h5>
-              <p class="paragraph">Hallowen in Zoo</p>
-              <p class="scroll">Scroll Down</p>
-              <a class="down-arrow" href="#navbar"><i class="fa-solid fa-angle-down"></i></a>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+          aria-label="Slide 5"></button>
       </div>
-
-      <nav class="navbar navbar-expand-lg bg-* borders">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbar">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link me-5" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link me-5" href="#">Tickets</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link me-5" href="#">Animals</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link me-5" href="#">Garden</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Events</a>
-              </li>
-            </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-dim active">
+          <img src="images/landing/landing_img1.jpg" class="d-block w-100 carousel-dim" alt="Tiger in water">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="heading">ANIMALS</h5>
+            <p class="paragraph">Get close to Giraffe, Hippo and Lion</p>
+            <p class="scroll">Scroll Down</p>
+            <a class="down-arrow" href="#navbar"><i class="fa-solid fa-angle-down"></i></a>
           </div>
         </div>
-      </nav>
-    </header>
+        <div class="carousel-item carousel-dim">
+          <img src="images/landing/landing_img2.jpg" class="d-block w-100 carousel-dim" alt="Turtle in the sea">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="heading">OCEANARIUM</h5>
+            <p class="paragraph">Underwater wild life</p>
+            <p class="scroll">Scroll Down</p>
+            <a class="down-arrow" href="#navbar"><i class="fa-solid fa-angle-down"></i></a>
+          </div>
+        </div>
+        <div class="carousel-item carousel-dim">
+          <img src="images/landing/landing_img3.jpg" class="d-block w-100 carousel-dim" alt="Butterfly on flower">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="heading">INSECT</h5>
+            <p class="paragraph">Insects are the most diverse group of animals</p>
+            <p class="scroll">Scroll Down</p>
+            <a class="down-arrow" href="#navbar"><i class="fa-solid fa-angle-down"></i></a>
+          </div>
+        </div>
+        <div class="carousel-item carousel-dim">
+          <img src="images/landing/landing_img5.jpg" class="d-block w-100 carousel-dim" alt="Orange rose">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="heading">GARDEN</h5>
+            <p class="paragraph">Peaceful park with shade trees and benches</p>
+            <p class="scroll">Scroll Down</p>
+            <a class="down-arrow" href="#navbar"><i class="fa-solid fa-angle-down"></i></a>
+          </div>
+        </div>
+        <div class="carousel-item carousel-dim">
+          <img src="images/landing/landing_img4.jpg" class="d-block w-100 carousel-dim" alt="Halloween pumpkins">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="heading">EVENTS</h5>
+            <p class="paragraph">Hallowen in Zoo</p>
+            <p class="scroll">Scroll Down</p>
+            <a class="down-arrow" href="#navbar"><i class="fa-solid fa-angle-down"></i></a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
-    <div class="main">
+    <nav class="navbar navbar-expand-lg bg-* borders">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link me-5" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-5" href="#">Tickets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-5" href="#">Animals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-5" href="#">Garden</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Events</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="main">
     <div class="row mx-5">
       <div class="col">
-          <div class="card" style="width: 18rem;">
-              <img src="images/landing/card-img-top1.jpg" class="card-img-top" alt="green cameleon image">
-              <div class="card-body text-center">
-                <h5 class="card-title">ANIMALS IN OUR ZOO</h5>
-                <p class="card-text">Animals dominate human conceptions of life on Earth because of their size, diversity, abundance, and mobility.
-                  The presence of muscles and mobility is one of the primary characteristics of the animal kingdom.</p>
-                <a href="#" class="btn btn-dark">Read more</a>
-              </div>
+        <div class="card" style="width: 18rem;">
+          <img src="images/landing/card-img-top1.jpg" class="card-img-top" alt="green cameleon image">
+          <div class="card-body text-center">
+            <h5 class="card-title">ANIMALS IN OUR ZOO</h5>
+            <p class="card-text">Animals dominate human conceptions of life on Earth because of their size, diversity,
+              abundance, and mobility.
+              The presence of muscles and mobility is one of the primary characteristics of the animal kingdom.</p>
+            <a href="#" class="btn btn-dark">Read more</a>
           </div>
+        </div>
       </div>
       <div class="col">
-          <div class="card" style="width: 18rem;">
-              <img src="images/landing/card-img-top2.jpg" class="card-img-top" alt="pink rose image">
-              <div class="card-body text-center">
-                <h5 class="card-title">GARDEN IN OUR ZOO</h5>
-                <p class="card-text">Our garden is an open area, often found with trees, benches, statues, etc.
-                  There is also lots of nature around, such as flowers, animals, trees, and much more.
-                  If you want to know more about our garden area, click button below.
-                </p>
-                <button href="#" class="btn btn-dark">Read more</button>
-              </div>
+        <div class="card" style="width: 18rem;">
+          <img src="images/landing/card-img-top2.jpg" class="card-img-top" alt="pink rose image">
+          <div class="card-body text-center">
+            <h5 class="card-title">GARDEN IN OUR ZOO</h5>
+            <p class="card-text">Our garden is an open area, often found with trees, benches, statues, etc.
+              There is also lots of nature around, such as flowers, animals, trees, and much more.
+              If you want to know more about our garden area, click button below.
+            </p>
+            <button href="#" class="btn btn-dark">Read more</button>
           </div>
+        </div>
       </div>
       <div class="col">
-          <div class="card" style="width: 18rem;">
-              <img src="images/landing/card-img-top3.jpg"class="card-img-top" alt="table with wine glasses">
-              <div class="card-body text-center">
-                <h5 class="card-title">EVENTS IN OUR ZOO</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-dark">Read more</a>
-              </div>
+        <div class="card" style="width: 18rem;">
+          <img src="images/landing/card-img-top3.jpg" class="card-img-top" alt="table with wine glasses">
+          <div class="card-body text-center">
+            <h5 class="card-title">EVENTS IN OUR ZOO</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-dark">Read more</a>
           </div>
+        </div>
       </div>
       <div class="col">
-          <div class="card" style="width: 18rem;">
-              <img src="" class="card-img-top" alt="">
-              <div class="card-body text-center">
-                <h5 class="card-title"></h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-dark">Read more</a>
-              </div>
+        <div class="card" style="width: 18rem;">
+          <img src="" class="card-img-top" alt="">
+          <div class="card-body text-center">
+            <h5 class="card-title"></h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-dark">Read more</a>
           </div>
+        </div>
       </div>
       <div class="col">
-          <div class="card" style="width: 18rem;">
-              <img src="" class="card-img-top" alt="">
-              <div class="card-body text-center">
-                <h5 class="card-title"></h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-dark">Read more</a>
-              </div>
+        <div class="card" style="width: 18rem;">
+          <img src="" class="card-img-top" alt="">
+          <div class="card-body text-center">
+            <h5 class="card-title"></h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-dark">Read more</a>
           </div>
+        </div>
       </div>
+    </div>
   </div>
-</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
