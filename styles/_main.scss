@@ -4,34 +4,42 @@
     width: 100%;
 }
 
-.card {
-    box-shadow: 0px 0px 20px variables.$color_green; 
+.cart-icon {
+    font-size: 25px;
+
+    // &:hover {
+    //     color: orange;
+    //     transition: all 0.5s ease-in-out;
+    // }
 }
 
-.card-img-top {   
-    height: 300px;
-    width: 100%; 
-    
+.cards {
+    box-shadow: 0px 0px 20px variables.$color_green;
+
+    &__img {
+        height: 300px;
+        width: 100%;
+    }
+
+    &__heading {
+        font-size: 30px;
+        font-family: variables.$font_fuzzy;
+        color: variables.$color;
+    }
+
+    &__paragraph {
+        font-size: 20px;
+        font-family: variables.$font_fuzzy;
+        color:black
+    }
 }
 
-.card-title {
-    font-size: 30px;
-    font-family: variables.$font_fuzzy;
-    color: variables.$color;
-}
-
-.card-text {
-    font-size: 20px;
-    font-family: variables.$font_fuzzy;
-    color:black
-}
-
-.btn {
+.btn_custom {
     background-color: variables.$color_green;
     color: white;
 
     &:hover {
-        background-color: variables.$color;;
+        background-color: variables.$color;
         transition: all 0.5s ease-in-out;
     }
 }

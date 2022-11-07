@@ -73,33 +73,34 @@
   width: 100%;
 }
 
-.card {
+.cart-icon {
+  font-size: 25px;
+}
+
+.cards {
   -webkit-box-shadow: 0px 0px 20px rgb(23, 120, 37);
           box-shadow: 0px 0px 20px rgb(23, 120, 37);
 }
-
-.card-img-top {
+.cards__img {
   height: 300px;
   width: 100%;
 }
-
-.card-title {
+.cards__heading {
   font-size: 30px;
   font-family: "Fuzzy Bubbles", cursive;
   color: rgb(252, 139, 2);
 }
-
-.card-text {
+.cards__paragraph {
   font-size: 20px;
   font-family: "Fuzzy Bubbles", cursive;
   color: black;
 }
 
-.btn {
+.btn_custom {
   background-color: rgb(23, 120, 37);
   color: white;
 }
-.btn:hover {
+.btn_custom:hover {
   background-color: rgb(252, 139, 2);
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
