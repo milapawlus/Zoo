@@ -13,15 +13,6 @@
     }
 }
 
-.cart-icon {
-    font-size: 25px;
-
-    // &:hover {
-    //     color: orange;
-    //     transition: all 0.5s ease-in-out;
-    // }
-}
-
 .cards {
     box-shadow: 0px 0px 20px variables.$color_green;
 
@@ -50,5 +41,12 @@
     &:hover {
         background-color: variables.$color;
         transition: all 0.5s ease-in-out;
+        transform: scale(1.1);
     }
+}
+
+.icon_custom:hover {
+    color: variables.$color !important;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.5);
 }
