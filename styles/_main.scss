@@ -1,37 +1,52 @@
 .main {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 60vh;
+
+    &__section3_card {
+        justify-content: end;
+    }
 }
 
-.card {
-    box-shadow: 0px 0px 20px variables.$color_green; 
+.cards {
+    box-shadow: 0px 0px 20px variables.$color_green;
+
+    &__img {
+        height: 300px;
+        width: 100%;
+    }
+
+    &__heading {
+        font-size: 30px;
+        font-family: variables.$font_fuzzy;
+        color: variables.$color;
+    }
+
+    &__paragraph {
+        font-size: 20px;
+        font-family: variables.$font_fuzzy;
+        color:black
+    }
 }
 
-.card-img-top {   
-    height: 300px;
-    width: 100%; 
-    
-}
-
-.card-title {
-    font-size: 30px;
-    font-family: variables.$font_fuzzy;
-    color: variables.$color;
-}
-
-.card-text {
-    font-size: 20px;
-    font-family: variables.$font_fuzzy;
-    color:black
-}
-
-.btn {
+.btn_custom {
     background-color: variables.$color_green;
     color: white;
 
     &:hover {
-        background-color: variables.$color;;
+        background-color: variables.$color;
         transition: all 0.5s ease-in-out;
+        transform: scale(1.1);
     }
+}
+
+.icon_custom:hover {
+    color: variables.$color !important;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.5);
 }
