@@ -1,6 +1,7 @@
-@use "../variables";
-@import "../main";
-@import "../header";
+@use "../landing/variables";
+@import "../landing/main";
+@import "../landing/header";
+
 .container {
   display: flex;
   flex-direction: column;

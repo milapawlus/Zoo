@@ -20,9 +20,9 @@
 <body>
     <header class="header">
         <!-- first navbar start -->
-        <nav class="navbar navbar-expand-lg bg-* borders">
+        <nav class="navbar navbar-expand-lg bg-* borders py-3">
             <div class="container-fluid">
-                <a class="navbar-brand logo-dim borders" href="#"><img src="../../images/landing/logo.png"
+                <a class="navbar-brand logo-dim borders" href="index.html"><img src="../../images/landing/logo.png"
                         alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -32,7 +32,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active me-5" aria-current="page" href="../../index.html">Home</a>
+                            <a class="nav-link me-5" aria-current="page" href="../../index.html">Home</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle me-5" href="#" role="button" data-bs-toggle="dropdown"
@@ -40,15 +40,18 @@
                                 Categories
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Zoo</a></li>
+                                <li><a class="dropdown-item nav-link text-center"
+                                        href="../../pages/animals/animals.html">Zoo</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="../Zoo/pages/garden/index.html">Garden</a></li>
+                                <li><a class="dropdown-item nav-link text-center"
+                                        href="../../pages/garden/index.html">Garden</a>
+                                </li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Events</a></li>
+                                <li><a class="dropdown-item nav-link text-center" href="#">Events</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -70,6 +73,7 @@
             </div>
         </nav>
         <!-- first navbar end -->
+
 
     </header>
 
@@ -98,8 +102,8 @@
     <div class="container" id="represntatives">
         <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
-                <div class="card bg-success">
-                    <div class="card-body">
+                <div class=" shadow-lg p-3 mb-5 bg-body rounded">
+                    <div class="card-body card bg-success">
                         <h5 class="card-title">Our Vission</h5>
                         <p class="card-text">Be a leader in the global movement to save wildlife.</p>
 
@@ -107,8 +111,8 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card bg-success">
-                    <div class="card-body">
+                <div class=" shadow-lg p-3 mb-5 bg-body rounded">
+                    <div class="card-body card bg-success">
                         <h5 class="card-title">Our Mission</h5>
                         <p class="card-text">Be a leader in the global movement to save wildlife.</p>
                     </div>
@@ -187,16 +191,16 @@
                             Useful links
                         </h6>
                         <p>
-                            <a href="../tickets/index.html" class="text-reset">Tickets</a>
+                            <a href="../../pages/tickets/index.html" class="text-reset icon_custom">Tickets</a>
                         </p>
                         <p>
-                            <a href="../about us/index.html" class="text-reset">About</a>
+                            <a href="../../pages/about us/index.html" class="text-reset icon_custom">About</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset">Contact</a>
+                            <a href="#!" class="text-reset icon_custom">Contact</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset">Help</a>
+                            <a href="#!" class="text-reset icon_custom">Help</a>
                         </p>
                     </div>
                     <!-- Grid column -->
@@ -214,6 +218,14 @@
                         <p><i class="fas fa-print me-3 text-secondary text-white icon_custom"></i> + 01 234 567 89</p>
                     </div>
                     <!-- Grid column -->
+
+                    <!-- grid logo column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-md-0 mb-4">
+                        <a class="navbar-brand logo-dim borders" href="../../../index.html"><img
+                                src="../../images/landing/logo.png" alt="logo"></a>
+                    </div>
+                    <!-- grid logo column -->
+
                 </div>
                 <!-- Grid row -->
             </div>
@@ -223,7 +235,7 @@
         <!-- Copyright -->
         <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
             © 2022 Copyright:
-            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">ANanimalnation.se</a>
+            <a class="text-reset fw-bold" href="../../../index.html">ANanimalnation.se</a>
         </div>
         <!-- Copyright -->
     </footer>
@@ -238,6 +250,10 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
 </body>
 

@@ -135,7 +135,6 @@
   font-family: "Fuzzy Bubbles", cursive;
   color: rgb(252, 139, 2);
   text-align: center;
-  margin-top: 30px;
 }
 
 #represntatives {
@@ -154,6 +153,7 @@
           align-items: center;
   font-family: "Fuzzy Bubbles", cursive;
   gap: 50px;
+  margin-bottom: 30px;
 }
 #represntatives .card-img-top {
   width: 100%;
@@ -164,4 +164,8 @@
 #represntatives .card-title {
   margin-top: 20px;
   margin-bottom: 30px;
+}
+#represntatives .card {
+  -webkit-box-shadow: 0px 0px 20px rgb(23, 120, 37);
+          box-shadow: 0px 0px 20px rgb(23, 120, 37);
 }
