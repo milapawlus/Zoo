@@ -10,20 +10,3 @@
   text-align: center;
   margin-top: 30px;
 }
-#represntatives {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  font-family: variables.$font_fuzzy;
-  gap: 10px;
-  .card-img-top {
-    width: 100%;
-    height: 15vw;
-    object-fit: cover;
-  }
-  .card-title {
-    margin-top: 20px;
-    margin-bottom: 30px;
-  }
-}
