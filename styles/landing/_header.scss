@@ -3,8 +3,6 @@
 }
 
 .nav-link {
-    position: relative;
-    padding:  30px 0px 30px 0px;
     font-size: 30px;
     font-family: variables.$font_fuzzy;
     color: variables.$color;
@@ -21,8 +19,8 @@
 }
 
 .logo-dim {
-    width: 5%;
-    min-height: 5%;
+    max-width: 100px;
+    max-height: 100px;
 }
 
 .logo-dim img {
