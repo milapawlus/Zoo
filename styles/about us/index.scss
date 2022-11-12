@@ -1,0 +1,18 @@
+@use "../landing/variables";
+@import "../landing/main";
+@import "../landing/header";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  font-family: variables.$font_fuzzy;
+  text-align: center;
+  margin-top: 30px;
+}
+#represntatives {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: variables.$font_fuzzy;
+}
