@@ -1,6 +1,6 @@
-@use "../landing/variables";
-@import "../landing/main";
-@import "../landing/header";
+@use "../../landing/variables";
+@import "../../landing/main";
+@import "../../landing/header";
 
 .container {
   display: flex;

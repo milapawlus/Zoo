@@ -59,13 +59,13 @@
           transform: scale(1.5);
 }
 
-.navbar {
-  background-color: transparent;
+.nav-sticky {
+  position: sticky;
+  top: -20px;
+  z-index: 1;
 }
 
 .nav-link {
-  position: relative;
-  padding: 30px 0px 30px 0px;
   font-size: 30px;
   font-family: "Fuzzy Bubbles", cursive;
   color: rgb(252, 139, 2);
@@ -133,7 +133,6 @@
       -ms-flex-direction: column;
           flex-direction: column;
   font-family: "Fuzzy Bubbles", cursive;
-  color: rgb(252, 139, 2);
   text-align: center;
   margin-top: 30px;
 }
